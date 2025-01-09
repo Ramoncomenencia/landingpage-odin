@@ -1,0 +1,194 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: black;
+    font-family: 'FreeSans', 'Roboto', sans-serif;
+}
+
+.container{
+    width: 75vw;
+    margin: 0 auto;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    background-color: #1F2937;
+    padding: 0 10rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 0;
+    color: white;
+}
+
+.logo{
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: bold;
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+    gap: 24px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+
+}
+
+.section_1{
+    display: flex;
+    gap: 2rem;
+    padding: 6rem 0;
+}
+
+h1{
+    font-weight: 900;
+    font-size: 48px;
+    color: #f9faf8;
+}
+
+.section_1  p{
+    font-size: 18px;
+    color: #e5e7eba6;
+    margin-bottom: 0.5rem;
+}
+
+.title{
+    flex: 1;
+}
+
+.title-image{
+   flex: 1;
+   background-color: gray;
+   color: #e5e7eba6;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.sign-up{
+    background-color: #3882F6;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 0.5rem 2rem;
+    border: none;
+    border-radius: 10px;
+
+}
+
+.content{
+    display: flex;
+    flex-direction: column;     
+}
+
+h2{
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    text-align: center; 
+    padding: 2rem 0;
+}
+
+.section_2{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 0 10rem;
+}
+
+.illustrations{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6rem;  
+    padding-bottom: 6rem;
+}
+
+.illustrations div{
+    width: 8rem;
+}
+
+
+.illustrations img{
+    width: 8rem;
+}
+
+.section_3{
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    padding: 6rem  16rem;
+    text-align: center;
+}
+
+.quote{
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    margin-bottom: 1rem;
+}
+
+.author{
+    align-self: flex-end;
+    font-weight: bold;
+    margin-right: 2rem;
+}
+
+.section_4{
+    display: flex;
+    justify-content:space-between;
+    background-color: #3882F6;
+    margin: 6rem 10rem;
+    padding: 3rem 6rem;
+    border-radius: 10px;
+    
+
+}
+
+.section_4 div{
+    color: #E5E7EB;
+}
+
+.sign-up.inverted{
+    border-color: #E5E7EB;
+    border-style: solid;
+}
+
+footer{
+    background-color:#1F2937;
+    text-align: center;
+    color: #E5E7EB;
+    padding: 2rem;
+
+}
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
